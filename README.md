@@ -1,44 +1,41 @@
 <div align="center">
 
+# Task Tracker CLI
+
 ```
 ████████╗ █████╗ ███████╗██╗  ██╗    ████████╗██████╗  █████╗  ██████╗██╗  ██╗███████╗██████╗ 
 ╚══██╔══╝██╔══██╗██╔════╝██║ ██╔╝    ╚══██╔══╝██╔══██╗██╔══██╗██╔════╝██║ ██╔╝██╔════╝██╔══██╗
-██║   ███████║███████╗█████╔╝        ██║   ██████╔╝███████║██║     █████╔╝ █████╗  ██████╔╝
-██║   ██╔══██║╚════██║██╔═██╗        ██║   ██╔══██╗██╔══██║██║     ██╔═██╗ ██╔══╝  ██╔══██╗
-██║   ██║  ██║███████║██║  ██╗       ██║   ██║  ██║██║  ██║╚██████╗██║  ██╗███████╗██║  ██║
-╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝       ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
+   ██║   ███████║███████╗█████╔╝        ██║   ██████╔╝███████║██║     █████╔╝ █████╗  ██████╔╝
+   ██║   ██╔══██║╚════██║██╔═██╗        ██║   ██╔══██╗██╔══██║██║     ██╔═██╗ ██╔══╝  ██╔══██╗
+   ██║   ██║  ██║███████║██║  ██╗       ██║   ██║  ██║██║  ██║╚██████╗██║  ██╗███████╗██║  ██║
+   ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝       ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
 ```
 
-[![GitHub license](https://img.shields.io/github/license/yourusername/task-tracker-cli?style=flat-square)](LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/task-tracker-cli?style=flat-square)](https://github.com/yourusername/task-tracker-cli/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/yourusername/task-tracker-cli?style=flat-square)](https://github.com/yourusername/task-tracker-cli/issues)
-[![Python](https://img.shields.io/badge/python-v3.6+-blue?style=flat-square)](https://www.python.org/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
+![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
+![Version](https://img.shields.io/badge/version-1.0.0-green.svg?style=flat-square)
+![Python Version](https://img.shields.io/badge/python-v3.6+-blue?style=flat-square)
+![Status](https://img.shields.io/badge/status-active-success.svg?style=flat-square)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
+
 
 A powerful command-line interface application for managing and tracking tasks efficiently. This Python-based task tracker helps you organize your work with features like task creation, status updates, and progress monitoring.
 
-[📖 Documentation](#documentation) • [🚀 Features](#features) • [⚡️ Quick Start](#installation) • [🤝 Contributing](#contributing) • [📝 License](#license)
+[📖 Documentation](#-documentation) • [🚀 Features](#-features) • [⚡️ Quick Start](#-installation) • [🤝 Contributing](#-contributing) • [📝 License](#-license)
 
 </div>
 
----
-
 ## 📑 Table of Contents
 
-- [✨ Features](#features)
-- [🏗️ Project Structure](#project-structure)
-- [💻 Tech Stack](#tech-stack)
-- [🚀 Installation](#installation)
-- [📖 Usage](#usage)
-- [🎨 Status Display](#status-display)
-- [📋 Available Commands](#available-commands)
-- [📂 File Structure](#file-structure)
-- [🖼️ Screenshots](#screenshots)
-- [🤝 Contributing](#contributing)
-- [💁 Support](#support)
-- [📝 License](#license)
-
----
+- [✨ Features](#-features)
+- [🏗️ Project Structure](#️-project-structure)
+- [💻 Tech Stack](#-tech-stack)
+- [🚀 Installation](#-installation)
+- [📖 Usage](#-usage)
+- [🎨 Status Display](#-status-display)
+- [📋 Available Commands](#-available-commands)
+- [📂 File Structure](#-file-structure)
+- [🤝 Contributing](#-contributing)
+- [📝 License](#-license)
 
 ## ✨ Features
 
@@ -49,15 +46,22 @@ A powerful command-line interface application for managing and tracking tasks ef
 - 📝 Edit existing task details
 - 🔍 Search and filter tasks by status
 - 💾 Persistent storage using JSON
+- 📈 Progress tracking and statistics
+- 🏷️ Task categorization and tagging
+- ⏰ Due date management
+- 🔔 Priority levels
+- 📊 Export tasks to various formats
 
 ## 🏗️ Project Structure
 
-The project follows a modular architecture with clear separation of concerns:
+The project follows a clean and modular architecture:
 
-- Main application logic in `main.py`
+- Core application logic in `main.py`
 - Task management functionality in `task_manager.py`
 - Utility functions in `utils.py`
-- Data persistence handled through JSON storage
+- Data persistence through JSON storage
+- Comprehensive test coverage
+- Clear separation of concerns
 
 ## 💻 Tech Stack
 
@@ -68,6 +72,8 @@ The project follows a modular architecture with clear separation of concerns:
 - **PyTest** - Testing framework
 - **Black** - Code formatting
 - **Flake8** - Code linting
+- **Poetry** - Dependency management
+- **Pre-commit** - Git hooks for code quality
 
 ## 🚀 Installation
 
@@ -77,9 +83,11 @@ The project follows a modular architecture with clear separation of concerns:
 - pip package manager
 - Git (for cloning the repository)
 
+### Setup
+
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/task-tracker-cli.git
+git clone https://github.com/TheRealSaitama/task-tracker-cli.git
 cd task-tracker-cli
 ```
 
@@ -88,9 +96,12 @@ cd task-tracker-cli
 pip install -r requirements.txt
 ```
 
-## 📖 Usage
+3. Verify installation:
+```bash
+python main.py --version
+```
 
-Here are some common usage examples:
+## 📖 Usage
 
 ### Add a new task
 ```bash
@@ -107,9 +118,15 @@ python main.py update 1 --status "in_progress"
 python main.py list
 ```
 
+### Delete a task
+```bash
+python main.py delete 1
+```
+
 ## 🎨 Status Display
 
-Tasks are displayed with color-coded status indicators:
+Tasks are displayed with intuitive color-coded status indicators:
+
 - 🔴 Not Started - Red
 - 🟡 In Progress - Yellow
 - 🟢 Completed - Green
@@ -130,6 +147,8 @@ ID: 3 | Title: Deploy application    | Status: 🟢 Completed
 | `update` | Update task status or details | `python main.py update <id> --status <status>` |
 | `delete` | Remove a task | `python main.py delete <id>` |
 | `search` | Search tasks by status | `python main.py search <status>` |
+| `export` | Export tasks to file | `python main.py export <format>` |
+| `stats` | View task statistics | `python main.py stats` |
 
 ## 📂 File Structure
 
@@ -137,69 +156,45 @@ ID: 3 | Title: Deploy application    | Status: 🟢 Completed
 task-tracker-cli/
 ├── main.py
 ├── requirements.txt
+├── requirements-dev.txt
+├── setup.py
 ├── README.md
+├── LICENSE
+├── .gitignore
+├── tests/
+│   ├── __init__.py
+│   ├── test_main.py
+│   └── test_task_manager.py
 └── src/
     ├── __init__.py
     ├── task_manager.py
-    └── utils.py
+    ├── utils.py
+    └── config.py
 ```
-
-## 🖼️ Screenshots
-
-<div align="center">
-
-### Command Line Interface
-
-![CLI Interface](docs/images/cli-interface.png)
-*(Coming soon)*
-
-### Task Management
-
-![Task Management](docs/images/task-management.png)
-*(Coming soon)*
-
-</div>
 
 ## 🤝 Contributing
 
-We love your input! We want to make contributing to Task Tracker CLI as easy and transparent as possible, whether it's:
+We welcome contributions! Here's how you can help:
 
-- Reporting a bug
-- Discussing the current state of the code
-- Submitting a fix
-- Proposing new features
-- Becoming a maintainer
-
-### Development Process
-
-1. Fork the repo and create your branch from `main`
-2. Install development dependencies: `pip install -r requirements-dev.txt`
-3. Make your changes and add tests if applicable
-4. Run tests and ensure they pass: `pytest`
-5. Make sure your code follows our coding standards: `black . && flake8`
-6. Submit a Pull Request
-
-## 💁 Support
-
-Need help? Here are some ways to get assistance:
-
-- 📖 Check out our [documentation](docs/)
-- 🐛 [Report a bug](../../issues)
-- 💡 [Request a feature](../../issues)
-- 📧 Email support: support@tasktracker.com
-- 💬 Join our [Discord community](https://discord.gg/tasktracker)
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Install development dependencies (`pip install -r requirements-dev.txt`)
+4. Make your changes
+5. Run tests (`pytest`)
+6. Ensure code quality (`black . && flake8`)
+7. Commit your changes (`git commit -m 'Add AmazingFeature'`)
+8. Push to the branch (`git push origin feature/AmazingFeature`)
+9. Open a Pull Request
 
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
-
 <div align="center">
-<p>Made with ❤️ by the Task Tracker Team</p>
+<p>Made with ❤️ by TheRealSaitama</p>
 <p>
-<a href="https://github.com/yourusername">GitHub</a> •
-<a href="https://twitter.com/yourusername">Twitter</a> •
-<a href="https://tasktracker.dev">Website</a>
+
+[![GitHub](https://img.shields.io/badge/GitHub-TheRealSaitama-181717?style=for-the-badge&logo=github)](https://github.com/TheRealSaitama)
+
 </p>
 </div>
